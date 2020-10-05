@@ -3,11 +3,16 @@ import React from 'react'
 const Article = () => {
   return (
     <div>
-      <h2>The Statue of Liberty's torch heads to new museum</h2>
-      <em>by Kate Farley (<a href="kate.farley@nytimes.com">kate.farley@nytimes.com</a>)</em>
-      <br></br>
-      November 22, 2018
-      <br></br>
+      <header>
+        <h2>The Statue of Liberty's torch heads to new museum</h2>
+
+        <address>
+          <em>by Kate Farley (<a href="kate.farley@nytimes.com">kate.farley@nytimes.com</a>)</em>
+          <br />
+        </address>
+        
+        <time dateTime="2018-11-22">November 22, 2018 </time>
+      </header>
 
       <p>The Statue of Liberty's original torch is getting a new home.</p>
 
