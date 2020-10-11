@@ -29,23 +29,9 @@ function App() {
     <div className="App">
       <Switch>
         <Route>
-            <article>
-              <header>
-                <h1>{Object.values(fetchedData)[1].title}</h1>
-                
-                <address>
-                  by {Object.values(fetchedData)[1].author} (
-                  <a href={Object.values(fetchedData)[1].authorEmail}>{Object.values(fetchedData)[1].authorEmail}</a>)
-                  <br />
-                </address>
+              
+          <DynamicArticle article={Object.values(fetchedData)[1]} />
 
-                <time datetime={Object.values(fetchedData)[1].timeStamp}>{Object.values(fetchedData)[1].displayDate} </time>
-              </header>
-
-              <div dangerouslySetInnerHTML = {{ __html: Object.values(fetchedData)[1].text }} />
-
-            </article>
-            
         </Route>
       </Switch>
 
