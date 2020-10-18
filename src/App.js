@@ -3,6 +3,7 @@ import { Switch, Route } from "react-router-dom";
 import Article from "./Article/Article";
 import DynamicArticle from "./DynamicArticle/DynamicArticle";
 import { isEmpty } from "lodash";
+import ArticleList from "./ArticleList/ArticleList";
 
 function App() {
   const [fetchedData, setFetchedData] = useState([]);
@@ -11,7 +12,7 @@ function App() {
     const fetchData = async () => {
       // put data fetching code here!
       const response = await fetch(
-        "http://demo1390455.mockable.io/articles"
+          "http://demo1390455.mockable.io/articles"
       );
       const responseJson = await response.json();
 
@@ -24,15 +25,27 @@ function App() {
     }
   }, [fetchedData]);
 
+  let displayContent;
 
-  return isEmpty(fetchedData) ? null : (
+   if (Object.keys(fetchedData).length) {
+    displayContent = (
+        <ArticleList articles={Object.values(fetchedData)} />
+     );
+  } else {
+    displayContent = <div>You have no data!</div>;
+  }
+
+  return (
     <div className="App">
       <Switch>
-        <Route>
-              
-          <DynamicArticle article={Object.values(fetchedData)[1]} />
+        {/*<Route path="/" exact>*/}
+        {/*  <DynamicArticle article={Object.values(fetchedData)[1]} />*/}
+        {/*</Route>*/}
 
+        <Route path="/articlelist">
+          {displayContent}
         </Route>
+
       </Switch>
 
     </div>

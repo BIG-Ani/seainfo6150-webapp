@@ -11,6 +11,7 @@ import CSSModule2 from "./component-examples/CSSModule2/CSSModule2.jsx";
 import Edgar from "./component-examples/EdgarAllenPoe/EdgarAllenPoeArticle.jsx";
 import Grid from "./component-examples/Grid/Grid.jsx";
 import styles from "./component-examples/examples.module.css";
+import Article from "./Article/Article";
 
 const Demo = (props) => {
   let { url } = useRouteMatch();
@@ -67,6 +68,9 @@ const Demo = (props) => {
             <li className={styles.listItem}>
               <Link to={`${url}/grid`}>Grid</Link>
             </li>
+            <li className={styles.listItem}>
+              <Link to={`${url}/article`}>Article</Link>
+            </li>
           </ul>
         </nav>
       </header>
@@ -105,6 +109,9 @@ const Demo = (props) => {
         </Route>
         <Route path={`${url}/grid`} exact>
           <Grid />
+        </Route>
+        <Route path={`${url}/article`} exact>
+          <Article />
         </Route>
         <Route path={`${url}/baz`} exact>
           <div>Hello</div>

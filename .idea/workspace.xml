@@ -1,7 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:upstream" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:upstream" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:upstream" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="afb88415-462d-42d0-852c-30680f19d0e4" name="Default Changelist" comment="" />
+    <list default="true" id="afb88415-462d-42d0-852c-30680f19d0e4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DynamicArticle/DynamicArticle.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicArticle/DynamicArticle.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,13 +79,33 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
-    <configuration name="App.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/App.js" working-dir="$PROJECT_DIR$/src">
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="App.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="App.js" working-dir="$PROJECT_DIR$/src">
       <method v="2" />
     </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.App.js" />
+      <item itemvalue="npm.npm start" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Node.js.App.js" />
@@ -41,32 +121,67 @@
       <option name="presentableId" value="Default" />
       <updated>1601500681642</updated>
       <workItem from="1601500683776" duration="258000" />
+      <workItem from="1602732362196" duration="215000" />
+      <workItem from="1602732626487" duration="8769000" />
+      <workItem from="1602779023211" duration="300000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="304" y="169" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601500991487">
+    <state x="701" y="407" key="#ESLint" timestamp="1602732786889">
       <screen x="0" y="23" width="1680" height="969" />
     </state>
-    <state x="304" y="169" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.969@0.23.1680.969" timestamp="1601500991486" />
-    <state width="1659" height="261" key="GridCell.Tab.0.bottom" timestamp="1601500996378">
+    <state x="701" y="407" key="#ESLint/0.23.1680.969@0.23.1680.969" timestamp="1602732786889" />
+    <state x="304" y="169" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602733450564">
       <screen x="0" y="23" width="1680" height="969" />
     </state>
-    <state width="1659" height="261" key="GridCell.Tab.0.bottom/0.23.1680.969@0.23.1680.969" timestamp="1601500996378" />
-    <state width="1659" height="261" key="GridCell.Tab.0.center" timestamp="1601500996378">
+    <state x="304" y="169" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.969@0.23.1680.969" timestamp="1602733450564" />
+    <state width="1659" height="294" key="GridCell.Tab.0.bottom" timestamp="1602744399967">
       <screen x="0" y="23" width="1680" height="969" />
     </state>
-    <state width="1659" height="261" key="GridCell.Tab.0.center/0.23.1680.969@0.23.1680.969" timestamp="1601500996378" />
-    <state width="1659" height="261" key="GridCell.Tab.0.left" timestamp="1601500996377">
+    <state width="1659" height="294" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1602741793058" />
+    <state width="1659" height="294" key="GridCell.Tab.0.bottom/0.23.1680.969@0.23.1680.969" timestamp="1602744399967" />
+    <state width="1659" height="294" key="GridCell.Tab.0.center" timestamp="1602744399966">
       <screen x="0" y="23" width="1680" height="969" />
     </state>
-    <state width="1659" height="261" key="GridCell.Tab.0.left/0.23.1680.969@0.23.1680.969" timestamp="1601500996377" />
-    <state width="1659" height="261" key="GridCell.Tab.0.right" timestamp="1601500996378">
+    <state width="1659" height="294" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1602741793056" />
+    <state width="1659" height="294" key="GridCell.Tab.0.center/0.23.1680.969@0.23.1680.969" timestamp="1602744399966" />
+    <state width="1659" height="294" key="GridCell.Tab.0.left" timestamp="1602744399965">
       <screen x="0" y="23" width="1680" height="969" />
     </state>
-    <state width="1659" height="261" key="GridCell.Tab.0.right/0.23.1680.969@0.23.1680.969" timestamp="1601500996378" />
+    <state width="1659" height="294" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1602741793056" />
+    <state width="1659" height="294" key="GridCell.Tab.0.left/0.23.1680.969@0.23.1680.969" timestamp="1602744399965" />
+    <state width="1659" height="294" key="GridCell.Tab.0.right" timestamp="1602744399966">
+      <screen x="0" y="23" width="1680" height="969" />
+    </state>
+    <state width="1659" height="294" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1602741793057" />
+    <state width="1659" height="294" key="GridCell.Tab.0.right/0.23.1680.969@0.23.1680.969" timestamp="1602744399966" />
   </component>
 </project>
