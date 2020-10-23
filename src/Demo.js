@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Switch, Route, Link, useRouteMatch } from "react-router-dom";
 import JsFundamentals from "./component-examples/JsFundamentals/JsFundamentals.jsx";
 import HelloUser from "./component-examples/HelloUser/HelloUser.jsx";
@@ -9,7 +9,7 @@ import List from "./component-examples/List.jsx";
 import CSSModule from "./component-examples/CSSModule/CSSModule.jsx";
 import CSSModule2 from "./component-examples/CSSModule2/CSSModule2.jsx";
 import Edgar from "./component-examples/EdgarAllenPoe/EdgarAllenPoeArticle.jsx";
-import Grid from "./component-examples/Grid/Grid.jsx";
+// import Grid from "./component-examples/Grid/Grid.jsx";
 import styles from "./component-examples/examples.module.css";
 import Article from "./Article/Article";
 
@@ -65,12 +65,16 @@ const Demo = (props) => {
             <li className={styles.listItem}>
               <Link to={`${url}/edgar`}>Edgar Allen Poe HTML</Link>
             </li>
-            <li className={styles.listItem}>
+            {/* <li className={styles.listItem}>
               <Link to={`${url}/grid`}>Grid</Link>
+<<<<<<< HEAD
             </li>
             <li className={styles.listItem}>
               <Link to={`${url}/article`}>Article</Link>
             </li>
+=======
+            </li> */}
+>>>>>>> master
           </ul>
         </nav>
       </header>
@@ -107,12 +111,16 @@ const Demo = (props) => {
         <Route path={`${url}/edgar`} exact>
           <Edgar />
         </Route>
-        <Route path={`${url}/grid`} exact>
+        {/* <Route path={`${url}/grid`} exact>
           <Grid />
+<<<<<<< HEAD
         </Route>
         <Route path={`${url}/article`} exact>
           <Article />
         </Route>
+=======
+        </Route> */}
+>>>>>>> master
         <Route path={`${url}/baz`} exact>
           <div>Hello</div>
         </Route>

@@ -1,23 +1,40 @@
-import React from "react";
-import HTMLText from "../HTMLText/HTMLText";
+import React, {useState} from "react";
+
+import ToggleButton from "../ArticleTextToggleButton/ArticleTextToggleButton";
+
+import style from './ArticleListItem.module.css'
 
 const ArticleListItem = (props) => {
 
+    // dynamic text displaying status
+    const [loadContent, setLoadContent] = useState({buttonText: 'Show more'});
+
     const article = props.article;
 
+    const loadContentHandler = (showMore) => {
+        if (showMore) {
+            setLoadContent({
+                buttonText: 'Show less',
+                shortText: article.shortText,
+                displayDate: article.displayDate
+            });
+        } else {
+            setLoadContent({buttonText: 'Show more'});
+        }
+    }
+
     return (
-        <>
-            {/* this is an example of how you insert props into a react component */}
-            <ul>
-                <li>
-                    <h1>{article.title}</h1>
-                </li>
+        <div className={style.container}>
+            <h1 className={style.title}>
+                {article.title}
+            </h1>
 
-                <time dateTime={article.timeStamp}>{article.displayDate}</time>
+            <time className={style.displayTime} dateTime={article.timeStamp}>{loadContent.displayDate}</time>
+            <p>{loadContent.shortText}</p>
 
-                <p>{article.shortText}</p>
-            </ul>
-        </>
+            <ToggleButton btnText={loadContent.buttonText} loadContentHandler={loadContentHandler}/>
+
+        </div>
     );
 };
 

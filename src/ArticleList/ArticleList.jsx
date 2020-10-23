@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
-import DynamicArticle from "../DynamicArticle/DynamicArticle";
+
 import ArticleListItem from "../ArticleListItem/ArticleListItem";
+
+import style from './ArticleList.module.css'
 
 const ArticleList = props => {
 
@@ -11,9 +13,9 @@ const ArticleList = props => {
     ))
 
     return (
-        <>
+        <div className={style.container}>
             {articleList}
-        </>
+        </div>
     )
 
 }
