@@ -29,8 +29,8 @@ const ArticleListItem = (props) => {
                 {article.title}
             </h1>
 
-            <time className={style.displayTime} dateTime={article.timeStamp}>{loadContent.displayDate}</time>
             <p>{loadContent.shortText}</p>
+            <time className={style.displayTime} dateTime={article.timeStamp}>{loadContent.displayDate}</time>
 
             <ToggleButton btnText={loadContent.buttonText} loadContentHandler={loadContentHandler}/>
 
