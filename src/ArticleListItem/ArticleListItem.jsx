@@ -13,6 +13,7 @@ const ArticleListItem = (props) => {
   return (
     <li className={styles.container}>
       <article className={styles.article}>
+
         <div className={styles.wrapper}>
           <h2 className={styles.title}>{props.article.title}</h2>
           {isTextShowing && (
@@ -24,10 +25,12 @@ const ArticleListItem = (props) => {
             </div>
           )}
         </div>
+
         <ArticleTextToggleButton
           buttonText={isTextShowing ? "Show less" : "Show more"}
           onClick={onClick}
         />
+
       </article>
     </li>
   );

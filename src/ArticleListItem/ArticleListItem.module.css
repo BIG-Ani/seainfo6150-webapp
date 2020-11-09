@@ -31,3 +31,27 @@
 .time {
     font-weight: bold;
 }
+
+@media screen and (max-width: 800px) {
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .text {
+        font-size: 1.5rem;
+    }
+
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px){
+
+    .title {
+        color: blue;
+    }
+
+    .text {
+        color: black;
+    }
+
+}
