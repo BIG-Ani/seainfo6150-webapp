@@ -1,0 +1,13 @@
+.articleImage {
+    border-radius: 50%;
+    width: 60%;
+
+    margin: 10px 0px 10px 0px;
+
+    border-width: 0.5em;
+    border-style : solid;
+    border-color: red;
+
+    display: flex;
+    align-items: flex-start;
+}

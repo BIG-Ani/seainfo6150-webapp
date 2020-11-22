@@ -8,7 +8,12 @@ describe("ArticleListItem tests", () => {
         "slug": "181122102925-statue-of-liberty-crown",
         "shortText": "The Statue of Liberty's original torch is getting a new home",
         "timeStamp": "2018-11-22T15:12:24.000Z",
-        "displayDate": "November 22nd 2018, 7:12 am"
+        "displayDate": "November 22nd 2018, 7:12 am",
+        image: {
+            _url: "https://cdn.cnn.com/cnnnext/dam/assets/160315093137-tollymore-forest-super-169.jpg",
+            _height: "619",
+            _width: "1100"
+        }
     };
 
     it("renders correctly", () => {
